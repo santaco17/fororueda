@@ -1,0 +1,36 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 15 mar 2022, 19:18:54
+    Author     : santa
+*/
+header{
+    background-color:grey;
+}
+html {
+    text-align: center;
+}
+body {
+  background-color: #99E9FA;
+  background-image: url("porsche.jpg");
+  text-align: center;
+}
+h1 {
+  color: black;
+}
+p {
+  color: #CECCCC;
+}
+my-footer {
+   text-align: center;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+}
+h4{
+    background-color: black;
+    color: white;
+}
+

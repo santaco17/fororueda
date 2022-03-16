@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<script type = module src=Styles/main.js></script>
+<my-header>
+</my-header>
+<html>
+    <head>
+        <link rel="stylesheet" href="Styles/style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+    
+            <form action ="FrontController">
+            <div >
+                <div  > 
+                      <h2>Iniciar Sesion</h2>
+                      <p>Rellena los campos para el login.</p>
+                </div>
+                <div>
+                    <input type="hidden" name="command" value="LogInCommand">
+                </div>
+                <div>
+                    <input type="text" name="name" placeholder="Nombre" required>
+                </div>
+                <div>
+                    <input type="password" name="password" placeholder="Contraseña" required>
+                </div>
+                <div>
+                    <input type="text" name="carBrand" placeholder="Marca de coche:" required>
+                </div>
+                <div>
+                    <input type="text" name="carModel" placeholder="Modelo de coche:" required>
+                </div>
+                <div>
+                    <input type="submit" value="Iniciar sesión">
+                </div>
+            </div>
+        </form> 
+        
+    </body>
+    <my-footer></my-footer>
+    
+
+</html>
